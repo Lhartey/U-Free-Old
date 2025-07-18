@@ -29,4 +29,27 @@ UFree is a full-stack web application initially built as part of my final-year u
 ---
 
 ## 📁 Project Structure (Simplified)
+ufree/
 
+- ├── client/ # Frontend (React)
+- └── server/ # Backend (Node/Express)
+
+
+---
+
+## ⚙️ Setup Instructions (Local Dev)
+
+```bash
+# Clone this repository
+git clone https://github.com/Lhartey/ufree.git
+cd ufree
+
+# Start backend server
+cd server
+npm install
+npm start
+
+# Start frontend server
+cd ../client
+npm install
+npm start
